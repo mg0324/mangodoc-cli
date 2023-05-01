@@ -1,0 +1,25 @@
+{
+  "name": "mangodoc-cli",
+  "version": "0.0.1",
+  "description": "mangodoc cli tool",
+  "homepage": "https://github.com/mg0324/mangodoc-cli",
+  "repository": "git@github.com:mg0324/mangodoc-cli.git",
+  "main": "index.js",
+  "bin": {
+    "mangodoc": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mangodoc",
+    "mangodoc-cli"
+  ],
+  "author": "mangomei",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "ora": "^5.3.0"
+  }
+}
